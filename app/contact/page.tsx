@@ -5,8 +5,8 @@ import Link from 'next/link'
 import { Phone, Mail, MapPin, Clock } from 'lucide-react'
 
 export const metadata = {
-  title: 'Contact Us | PhysioClinic',
-  description: 'Get in touch with PhysioClinic. Call, email, or visit us. We&apos;re here to answer your questions about our services.',
+  title: 'Contact Us | Prolific Rehab Center',
+  description: 'Get in touch with Prolific Rehab Center. Call, email, or visit us. We&apos;re here to answer your questions about our services.',
 }
 
 export default function Page() {
@@ -20,7 +20,7 @@ export default function Page() {
             <div className="max-w-3xl">
               <p className="text-sm font-semibold text-secondary uppercase tracking-wider mb-4">Get in Touch</p>
               <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-6 text-balance">
-                Contact PhysioClinic
+                Contact Prolific Rehab Center
               </h1>
               <p className="text-lg text-foreground/70 leading-relaxed">
                 Have questions about our services? Ready to book an appointment? Get in touch with us today.
@@ -39,8 +39,8 @@ export default function Page() {
                   <Phone className="text-secondary" size={24} />
                 </div>
                 <h3 className="font-semibold text-foreground mb-2">Phone</h3>
-                <a href="tel:+441234567890" className="text-secondary hover:text-secondary/80 font-medium">
-                  +44 (0)123 456 7890
+                <a href="tel:+447729482216" className="text-secondary hover:text-secondary/80 font-medium">
+                  +44 7729 482216
                 </a>
               </div>
 
@@ -50,8 +50,8 @@ export default function Page() {
                   <Mail className="text-secondary" size={24} />
                 </div>
                 <h3 className="font-semibold text-foreground mb-2">Email</h3>
-                <a href="mailto:info@physioclinic.co.uk" className="text-secondary hover:text-secondary/80 font-medium break-all">
-                  info@physioclinic.co.uk
+                <a href="mailto:Prolificrehabcenter@gmail.com" className="text-secondary hover:text-secondary/80 font-medium break-all">
+                  Prolificrehabcenter@gmail.com
                 </a>
               </div>
 
@@ -62,8 +62,9 @@ export default function Page() {
                 </div>
                 <h3 className="font-semibold text-foreground mb-2">Address</h3>
                 <p className="text-foreground/70 text-sm">
-                  123 High Street<br />
-                  London, UK
+                  4/39/0-1, Saint Thomas Mount 3rd Lane,<br />
+                  Saint Patrick&apos;s Church Road,<br />
+                  Chennai, India
                 </p>
               </div>
 
@@ -81,15 +82,17 @@ export default function Page() {
               </div>
             </div>
 
-            {/* Map Placeholder */}
-            <div className="relative h-96 rounded-lg overflow-hidden bg-gradient-to-br from-secondary/20 to-accent/20 border border-border">
-              <div className="absolute inset-0 flex items-center justify-center">
-                <div className="text-center space-y-4">
-                  <MapPin size={64} className="mx-auto text-secondary/60" />
-                  <p className="text-foreground/60 font-medium">[Google Maps Embedded Here]</p>
-                  <p className="text-sm text-foreground/40">123 High Street, London, UK</p>
-                </div>
-              </div>
+            {/* Map */}
+            <div className="relative h-96 rounded-lg overflow-hidden border border-border">
+              <iframe
+                title="Prolific Rehab Center location"
+                src="https://www.google.com/maps?q=Saint+Thomas+Mount+3rd+Lane,+Saint+Patrick%27s+Church+Road,+Chennai&output=embed"
+                className="w-full h-full"
+                style={{ border: 0 }}
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                allowFullScreen
+              />
             </div>
           </div>
         </section>
@@ -134,7 +137,7 @@ export default function Page() {
                   <input 
                     type="tel" 
                     className="w-full px-4 py-2 border border-border rounded-lg focus:outline-none focus:ring-2 focus:ring-secondary/50" 
-                    placeholder="+44 (0)123 456 7890"
+                    placeholder="+44 7729 482216"
                   />
                 </div>
 

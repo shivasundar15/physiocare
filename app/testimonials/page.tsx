@@ -6,14 +6,14 @@ import { Button } from '@/components/ui/button'
 
 export const metadata = {
   title: 'Patient Testimonials | Success Stories',
-  description: 'Read success stories from our patients. Discover how PhysioClinic has helped them recover and return to the activities they love.',
+  description: 'Read success stories from our patients. Discover how Prolific Rehab Center has helped them recover and return to the activities they love.',
 }
 
 const testimonials = [
   {
     name: 'Sarah Johnson',
     role: 'Runner',
-    content: 'I came to PhysioClinic with persistent knee pain that was preventing me from running. Within 8 weeks of consistent treatment and the home exercise program, I was back to my regular running schedule pain-free. The attention to detail and personalized approach made all the difference.',
+    content: 'I came to Prolific Rehab Center with persistent knee pain that was preventing me from running. Within 8 weeks of consistent treatment and the home exercise program, I was back to my regular running schedule pain-free. The attention to detail and personalized approach made all the difference.',
     rating: 5,
   },
   {

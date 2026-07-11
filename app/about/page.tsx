@@ -6,7 +6,7 @@ import { Button } from '@/components/ui/button'
 
 export const metadata = {
   title: 'About Our Physiotherapist | Professional Care',
-  description: 'Meet [ADD NAME], HCPC registered physiotherapist with 15+ years of experience in clinical and sports physiotherapy.',
+  description: 'Meet Aaron Fernando, a sports physiotherapist who has interned with Arsenal FC and Watford FC, currently studying at the University of Hertfordshire, UK.',
 }
 
 export default function Page() {
@@ -23,7 +23,7 @@ export default function Page() {
                 Meet Your Physiotherapist
               </h1>
               <p className="text-lg text-foreground/70 leading-relaxed">
-                With over 15 years of experience in clinical and sports physiotherapy, [ADD NAME] is dedicated to helping patients recover from injury, manage chronic conditions, and achieve their wellness goals.
+                With hands-on experience supporting professional athletes at Arsenal Football Club and Watford Football Club, Aaron Fernando is dedicated to helping patients recover from injury, manage chronic conditions, and achieve their wellness goals.
               </p>
             </div>
           </div>
@@ -37,7 +37,7 @@ export default function Page() {
                 <h2 className="text-3xl font-bold text-foreground">Professional Background</h2>
                 
                 <p className="text-foreground/70 leading-relaxed">
-                  [ADD NAME] graduated with a BSc in Physiotherapy from [ADD DETAILS] and has since completed advanced qualifications in sports physiotherapy, manual therapy, and rehabilitation. As an HCPC registered physiotherapist (Reg: [ADD DETAILS]), [ADD NAME] maintains the highest standards of professional practice and continues professional development throughout their career.
+                  Aaron Fernando is currently pursuing a BSc in Physiotherapy at the University of Hertfordshire in the UK. Alongside his studies, Aaron has gained valuable sports physiotherapy experience through internships with Arsenal Football Club and Watford Football Club, supporting players during training and competitive matches. Aaron is committed to evidence-based, compassionate care and to continued professional development throughout his career.
                 </p>
 
                 <div className="space-y-4">
@@ -46,8 +46,8 @@ export default function Page() {
                       <Award className="text-secondary" size={20} />
                     </div>
                     <div>
-                      <h3 className="font-semibold text-foreground mb-1">HCPC Registration</h3>
-                      <p className="text-sm text-foreground/70">[ADD DETAILS]</p>
+                      <h3 className="font-semibold text-foreground mb-1">Football Club Experience</h3>
+                      <p className="text-sm text-foreground/70">Internships with Arsenal FC &amp; Watford FC</p>
                     </div>
                   </div>
                   <div className="flex gap-4">
@@ -56,7 +56,7 @@ export default function Page() {
                     </div>
                     <div>
                       <h3 className="font-semibold text-foreground mb-1">Education</h3>
-                      <p className="text-sm text-foreground/70">BSc Physiotherapy, [ADD DETAILS]</p>
+                      <p className="text-sm text-foreground/70">BSc Physiotherapy (in progress), University of Hertfordshire</p>
                     </div>
                   </div>
                   <div className="flex gap-4">
@@ -65,7 +65,7 @@ export default function Page() {
                     </div>
                     <div>
                       <h3 className="font-semibold text-foreground mb-1">Experience</h3>
-                      <p className="text-sm text-foreground/70">15+ years in clinical and sports physiotherapy</p>
+                      <p className="text-sm text-foreground/70">Sports physiotherapy with professional football clubs</p>
                     </div>
                   </div>
                 </div>
@@ -75,7 +75,7 @@ export default function Page() {
                 <div className="absolute inset-0 flex items-center justify-center">
                   <div className="text-center space-y-4">
                     <Award size={64} className="mx-auto text-secondary/60" />
-                    <p className="text-foreground/60 font-medium">[Professional Photo]</p>
+                    <p className="text-foreground/60 font-medium">[Add Photo of Aaron Fernando]</p>
                   </div>
                 </div>
               </div>
@@ -92,7 +92,7 @@ export default function Page() {
               <p className="text-lg text-foreground/80 leading-relaxed italic mb-4">
                 &quot;Every patient is unique. I believe in combining evidence-based practice with a compassionate, personalized approach. My goal isn&apos;t just to relieve your pain—it&apos;s to help you understand your body, achieve your goals, and build lasting habits to prevent future injuries.&quot;
               </p>
-              <p className="font-semibold text-secondary">— [ADD NAME]</p>
+              <p className="font-semibold text-secondary">— Aaron Fernando</p>
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -154,7 +154,7 @@ export default function Page() {
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 className="text-3xl font-bold mb-4">Ready to Experience Professional Care?</h2>
             <p className="text-lg text-primary-foreground/90 mb-8">
-              Book an appointment with [ADD NAME] today and start your journey to recovery.
+              Book an appointment with Aaron Fernando today and start your journey to recovery.
             </p>
             <Link href="/book">
               <Button className="bg-accent hover:bg-accent/90 text-accent-foreground text-base h-12 px-8">

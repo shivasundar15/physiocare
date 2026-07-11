@@ -26,15 +26,11 @@ export function HeroSection() {
             <div className="space-y-2">
               <div className="flex items-center gap-2">
                 <CheckCircle2 size={20} className="text-secondary flex-shrink-0" />
-                <span className="text-foreground/80">Registered physiotherapist with 15+ years experience</span>
+                <span className="text-foreground/80">Sports physiotherapy experience with Arsenal FC &amp; Watford FC</span>
               </div>
               <div className="flex items-center gap-2">
                 <CheckCircle2 size={20} className="text-secondary flex-shrink-0" />
-                <span className="text-foreground/80">HCPC registered and fully insured</span>
-              </div>
-              <div className="flex items-center gap-2">
-                <CheckCircle2 size={20} className="text-secondary flex-shrink-0" />
-                <span className="text-foreground/80">Evidence-based treatment protocols</span>
+                <span className="text-foreground/80">Specialist focus on sports injury &amp; rehabilitation</span>
               </div>
             </div>
 
@@ -45,9 +41,9 @@ export function HeroSection() {
                   Book Appointment
                 </Button>
               </Link>
-              <a href="tel:+441234567890">
+              <a href="tel:+447729482216">
                 <Button variant="outline" className="w-full sm:w-auto border-primary text-primary hover:bg-primary/5 text-base h-12 px-6">
-                  Call: +44 (0)123 456 7890
+                  Call: +44 7729 482216
                 </Button>
               </a>
             </div>

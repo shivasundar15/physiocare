@@ -6,8 +6,8 @@ import Image from 'next/image'
 import { ArrowRight } from 'lucide-react'
 
 export const metadata = {
-  title: 'Conditions Treated | PhysioClinic',
-  description: 'Explore the conditions we treat at PhysioClinic, from back pain to sports injuries, post-surgery recovery and more.',
+  title: 'Conditions Treated | Prolific Rehab Center',
+  description: 'Explore the conditions we treat at Prolific Rehab Center, from back pain to sports injuries, post-surgery recovery and more.',
 }
 
 const conditions = [

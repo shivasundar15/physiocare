@@ -31,7 +31,7 @@ export function AboutSection() {
             </div>
 
             <p className="text-lg text-foreground/70 leading-relaxed">
-              [ADD NAME] is an HCPC registered physiotherapist with over 15 years of experience in clinical and sports physiotherapy. Specializing in musculoskeletal injuries, sports rehabilitation, and post-surgical recovery, [ADD NAME] has helped hundreds of patients return to their favorite activities.
+              Aaron Fernando is a physiotherapist specializing in musculoskeletal injuries, sports rehabilitation, and post-surgical recovery. Having interned with Arsenal Football Club and Watford Football Club, Aaron has hands-on experience supporting professional athletes during competitive matches — and is passionate about helping every patient return to the activities they love.
             </p>
 
             {/* Qualifications */}
@@ -41,8 +41,8 @@ export function AboutSection() {
                   <Award size={18} className="text-secondary" />
                 </div>
                 <div>
-                  <p className="font-semibold text-foreground">HCPC Registered</p>
-                  <p className="text-sm text-foreground/70">Health and Care Professions Council Registration #[ADD DETAILS]</p>
+                  <p className="font-semibold text-foreground">Sports Physiotherapy Experience</p>
+                  <p className="text-sm text-foreground/70">Internships with Arsenal FC &amp; Watford FC</p>
                 </div>
               </div>
               <div className="flex gap-3">
@@ -50,8 +50,8 @@ export function AboutSection() {
                   <BookOpen size={18} className="text-secondary" />
                 </div>
                 <div>
-                  <p className="font-semibold text-foreground">BSc Physiotherapy</p>
-                  <p className="text-sm text-foreground/70">University of [ADD DETAILS]</p>
+                  <p className="font-semibold text-foreground">BSc Physiotherapy (in progress)</p>
+                  <p className="text-sm text-foreground/70">University of Hertfordshire, UK</p>
                 </div>
               </div>
               <div className="flex gap-3">
@@ -59,8 +59,8 @@ export function AboutSection() {
                   <Briefcase size={18} className="text-secondary" />
                 </div>
                 <div>
-                  <p className="font-semibold text-foreground">Specialist in Sports Injury</p>
-                  <p className="text-sm text-foreground/70">Advanced Diploma in Sports Physiotherapy</p>
+                  <p className="font-semibold text-foreground">Match-Day Support</p>
+                  <p className="text-sm text-foreground/70">Hands-on experience assisting players during football matches</p>
                 </div>
               </div>
             </div>

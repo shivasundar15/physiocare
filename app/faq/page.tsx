@@ -5,7 +5,7 @@ import { Button } from '@/components/ui/button'
 import Link from 'next/link'
 
 export const metadata = {
-  title: 'FAQ | PhysioClinic',
+  title: 'FAQ | Prolific Rehab Center',
   description: 'Frequently asked questions about our physiotherapy services, appointments, pricing, and treatment options.',
 }
 
@@ -33,7 +33,7 @@ export default function Page() {
       faqs: [
         {
           question: 'How do I book an appointment?',
-          answer: 'You can book online through our website, call us at +44 (0)123 456 7890, or email info@physioclinic.co.uk. We try to accommodate urgent cases within 24-48 hours when possible.',
+          answer: 'You can book online through our website, call us at +44 7729 482216, or email Prolificrehabcenter@gmail.com. We try to accommodate urgent cases within 24-48 hours when possible.',
         },
         {
           question: 'How long is the first appointment?',

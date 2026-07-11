@@ -19,7 +19,7 @@ export function FinalCTA() {
               Book Your Appointment
             </Button>
           </Link>
-          <a href="tel:+441234567890">
+          <a href="tel:+447729482216">
             <Button variant="outline" className="w-full sm:w-auto border-primary-foreground bg-primary-foreground text-primary hover:bg-primary-foreground text-base h-11 md:h-12 px-6 md:px-8">
               <Phone size={18} className="mr-2" />
               Call Now

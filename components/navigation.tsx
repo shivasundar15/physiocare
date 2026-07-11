@@ -1,6 +1,7 @@
 'use client'
 
 import Link from 'next/link'
+import Image from 'next/image'
 import { useState } from 'react'
 import { Menu, X, Phone } from 'lucide-react'
 import { Button } from '@/components/ui/button'
@@ -23,11 +24,16 @@ export function Navigation() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <Link href="/" className="flex items-center gap-2 flex-shrink-0">
-            <div className="w-10 h-10 rounded-lg bg-primary flex items-center justify-center">
-              <span className="text-white font-bold text-lg">P</span>
-            </div>
-            <span className="font-bold text-foreground hidden sm:inline">PhysioClinic</span>
+          <Link href="/" className="group flex items-center gap-2 flex-shrink-0">
+            <Image
+              src="/favicon.png"
+              alt="Prolific Rehab Center logo"
+              width={40}
+              height={40}
+              priority
+              className="w-10 h-10 rounded-full object-cover ring-1 ring-border transition-transform duration-300 group-hover:scale-110 group-hover:rotate-6"
+            />
+            <span className="font-bold text-foreground hidden sm:inline">Prolific Rehab Center</span>
           </Link>
 
           {/* Desktop Navigation */}
@@ -45,7 +51,7 @@ export function Navigation() {
 
           {/* CTA Buttons */}
           <div className="flex items-center gap-3">
-            <a href="tel:+441234567890" className="hidden sm:flex items-center gap-2 px-3 py-2 text-sm font-medium text-primary hover:text-primary/80 transition-colors">
+            <a href="tel:+447729482216" className="hidden sm:flex items-center gap-2 px-3 py-2 text-sm font-medium text-primary hover:text-primary/80 transition-colors">
               <Phone size={18} />
               <span>Call Us</span>
             </a>
@@ -84,7 +90,7 @@ export function Navigation() {
             ))}
             <div className="pt-2 border-t border-border space-y-2">
               <a
-                href="tel:+441234567890"
+                href="tel:+447729482216"
                 className="block px-4 py-2 text-sm font-medium text-primary hover:bg-accent/10 rounded-md transition-colors"
                 onClick={() => setMobileMenuOpen(false)}
               >
@@ -110,7 +116,7 @@ export function Navigation() {
                 Book Appointment
               </Button>
             </Link>
-            <a href="tel:+441234567890" className="block">
+            <a href="tel:+447729482216" className="block">
               <Button variant="outline" className="w-full border-primary text-primary hover:bg-primary/5 h-11">
                 Call Us
               </Button>

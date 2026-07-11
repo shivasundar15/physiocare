@@ -3,26 +3,12 @@ import type { Metadata, Viewport } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Premium Physiotherapy Clinic | Personalized Recovery Care',
-  description: 'Experience professional physiotherapy with personalized treatment plans, evidence-based therapy, and compassionate care. Book your appointment today.',
-  keywords: 'physiotherapy, physical therapy, sports injury, rehabilitation, pain relief, recovery',
-  generator: 'v0.app',
+  title: 'Prolific Rehab Center | Personalized Physiotherapy & Recovery Care',
+  description: 'Prolific Rehab Center — professional physiotherapy with personalized treatment plans, sports rehabilitation, and compassionate care. Book your appointment today.',
+  keywords: 'physiotherapy, physical therapy, sports injury, rehabilitation, pain relief, recovery, Chennai',
   icons: {
-    icon: [
-      {
-        url: '/icon-light-32x32.png',
-        media: '(prefers-color-scheme: light)',
-      },
-      {
-        url: '/icon-dark-32x32.png',
-        media: '(prefers-color-scheme: dark)',
-      },
-      {
-        url: '/icon.svg',
-        type: 'image/svg+xml',
-      },
-    ],
-    apple: '/apple-icon.png',
+    icon: '/favicon.png',
+    apple: '/favicon.png',
   },
 }
 

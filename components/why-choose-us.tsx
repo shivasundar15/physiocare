@@ -9,8 +9,8 @@ export function WhyChooseUs() {
     },
     {
       icon: Award,
-      title: 'Expert Therapist',
-      description: 'HCPC registered with extensive experience in sports and clinical physiotherapy.',
+      title: 'Sports-Trained Therapist',
+      description: 'Experience gained with professional football clubs, including Arsenal FC and Watford FC.',
     },
     {
       icon: Zap,
@@ -32,10 +32,10 @@ export function WhyChooseUs() {
             Why Choose Us
           </p>
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4 text-balance">
-            The PhysioClinic Difference
+            The Prolific Rehab Center Difference
           </h2>
           <p className="text-lg text-foreground/70 max-w-2xl mx-auto">
-            Discover why hundreds of patients trust us with their recovery journey.
+            Discover the care and dedication we bring to every recovery journey.
           </p>
         </div>
 

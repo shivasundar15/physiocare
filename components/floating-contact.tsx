@@ -7,7 +7,7 @@ export function FloatingContact() {
     <div className="fixed bottom-6 left-6 z-20 hidden md:flex flex-col gap-3">
       {/* WhatsApp Button */}
       <a
-        href="https://wa.me/441234567890"
+        href="https://wa.me/447729482216"
         target="_blank"
         rel="noopener noreferrer"
         className="w-14 h-14 rounded-full bg-secondary hover:bg-secondary/90 text-white shadow-lg hover:shadow-xl transition-all flex items-center justify-center group"
@@ -21,7 +21,7 @@ export function FloatingContact() {
 
       {/* Phone Button */}
       <a
-        href="tel:+441234567890"
+        href="tel:+447729482216"
         className="w-14 h-14 rounded-full bg-secondary hover:bg-secondary/90 text-white shadow-lg hover:shadow-xl transition-all flex items-center justify-center group"
         title="Call us"
       >

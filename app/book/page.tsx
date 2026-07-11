@@ -5,8 +5,8 @@ import Link from 'next/link'
 import { Calendar, Clock, User } from 'lucide-react'
 
 export const metadata = {
-  title: 'Book an Appointment | PhysioClinic',
-  description: 'Book your physiotherapy appointment at PhysioClinic. Schedule your consultation with our experienced therapist.',
+  title: 'Book an Appointment | Prolific Rehab Center',
+  description: 'Book your physiotherapy appointment at Prolific Rehab Center. Schedule your consultation with our experienced therapist.',
 }
 
 export default function Page() {
@@ -38,17 +38,17 @@ export default function Page() {
                 <div className="w-12 h-12 rounded-lg bg-secondary/10 flex items-center justify-center mb-4">
                   <Calendar className="text-secondary" size={24} />
                 </div>
-                <h2 className="text-2xl font-bold text-foreground mb-3">Online Booking</h2>
+                <h2 className="text-2xl font-bold text-foreground mb-3">Book on WhatsApp</h2>
                 <p className="text-foreground/70 mb-6">
-                  Book your appointment online through our booking system. Select your preferred date and time, and receive instant confirmation.
+                  Message us on WhatsApp to book your appointment. Tell us your preferred date and time, and we&apos;ll confirm your slot quickly.
                 </p>
                 <div className="bg-primary/5 rounded-lg p-4 mb-6 border border-border">
                   <p className="text-sm text-foreground/70 mb-2"><span className="font-semibold">Initial Consultation:</span> £65 (45-60 mins)</p>
                   <p className="text-sm text-foreground/70"><span className="font-semibold">Follow-up Session:</span> £45 (30-45 mins)</p>
                 </div>
-                <a href="https://calendly.com/physioclinic" target="_blank" rel="noopener noreferrer">
+                <a href="https://wa.me/447729482216?text=Hi%20Prolific%20Rehab%20Center%2C%20I%27d%20like%20to%20book%20an%20appointment." target="_blank" rel="noopener noreferrer">
                   <Button className="w-full bg-accent hover:bg-accent/90 text-accent-foreground">
-                    Book Online Now
+                    Book on WhatsApp
                   </Button>
                 </a>
               </div>
@@ -68,9 +68,9 @@ export default function Page() {
                   <p className="text-sm text-foreground/70">Saturday: 10:00 AM - 3:00 PM</p>
                   <p className="text-sm text-foreground/70">Sunday: Closed</p>
                 </div>
-                <a href="tel:+441234567890">
+                <a href="tel:+447729482216">
                   <Button className="w-full bg-secondary hover:bg-secondary/90 text-secondary-foreground">
-                    Call: +44 (0)123 456 7890
+                    Call: +44 7729 482216
                   </Button>
                 </a>
               </div>
@@ -165,14 +165,14 @@ export default function Page() {
               Book your appointment today and take the first step toward recovery and wellness.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-              <a href="https://calendly.com/physioclinic" target="_blank" rel="noopener noreferrer">
+              <a href="https://wa.me/447729482216?text=Hi%20Prolific%20Rehab%20Center%2C%20I%27d%20like%20to%20book%20an%20appointment." target="_blank" rel="noopener noreferrer">
                 <Button className="bg-accent hover:bg-accent/90 text-accent-foreground text-base h-12 px-8">
-                  Book Online
+                  Book on WhatsApp
                 </Button>
               </a>
-              <a href="tel:+441234567890">
+              <a href="tel:+447729482216">
                 <Button variant="outline" className="border-primary-foreground text-primary-foreground hover:bg-primary-foreground/10 text-base h-12 px-8">
-                  Call: +44 (0)123 456 7890
+                  Call: +44 7729 482216
                 </Button>
               </a>
             </div>
