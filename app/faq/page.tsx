@@ -20,7 +20,7 @@ export default function Page() {
         },
         {
           question: 'What conditions do you treat?',
-          answer: 'We treat a wide range of musculoskeletal conditions including back pain, neck pain, sports injuries, post-surgical recovery, arthritis, and mobility issues. We also work with athletes for performance enhancement and injury prevention.',
+          answer: 'We treat a wide range of musculoskeletal conditions including back pain, neck pain, sports injuries, post surgical recovery, arthritis, and mobility issues. We also work with athletes for performance enhancement and injury prevention.',
         },
         {
           question: 'Do I need a doctor\'s referral?',

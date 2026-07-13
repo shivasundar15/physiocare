@@ -23,7 +23,7 @@ export default function Page() {
                 Meet Your Physiotherapist
               </h1>
               <p className="text-lg text-foreground/70 leading-relaxed">
-                With hands-on experience supporting professional athletes at Arsenal Football Club and Watford Football Club, Aaron Fernando is dedicated to helping patients recover from injury, manage chronic conditions, and achieve their wellness goals.
+                With hands on experience supporting professional athletes at Arsenal Football Club and Watford Football Club, Aaron Fernando is dedicated to helping patients recover from injury, manage chronic conditions, and achieve their wellness goals.
               </p>
             </div>
           </div>
@@ -37,7 +37,7 @@ export default function Page() {
                 <h2 className="text-3xl font-bold text-foreground">Professional Background</h2>
                 
                 <p className="text-foreground/70 leading-relaxed">
-                  Aaron Fernando is currently pursuing a BSc in Physiotherapy at the University of Hertfordshire in the UK. Alongside his studies, Aaron has gained valuable sports physiotherapy experience through internships with Arsenal Football Club and Watford Football Club, supporting players during training and competitive matches. Aaron is committed to evidence-based, compassionate care and to continued professional development throughout his career.
+                  Aaron Fernando is currently pursuing a BSc in Physiotherapy at the University of Hertfordshire in the UK. Alongside his studies, Aaron has gained valuable sports physiotherapy experience through internships with Arsenal Football Club and Watford Football Club, supporting players during training and competitive matches. Aaron is committed to evidence based, compassionate care and to continued professional development throughout his career.
                 </p>
 
                 <div className="space-y-4">
@@ -90,7 +90,7 @@ export default function Page() {
             
             <div className="bg-white border border-border rounded-lg p-8 mb-8">
               <p className="text-lg text-foreground/80 leading-relaxed italic mb-4">
-                &quot;Every patient is unique. I believe in combining evidence-based practice with a compassionate, personalized approach. My goal isn&apos;t just to relieve your pain—it&apos;s to help you understand your body, achieve your goals, and build lasting habits to prevent future injuries.&quot;
+                &quot;Every patient is unique. I believe in combining evidence based practice with a compassionate, personalized approach. My goal isn&apos;t just to relieve your pain—it&apos;s to help you understand your body, achieve your goals, and build lasting habits to prevent future injuries.&quot;
               </p>
               <p className="font-semibold text-secondary">— Aaron Fernando</p>
             </div>

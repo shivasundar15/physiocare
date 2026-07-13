@@ -4,7 +4,7 @@ import './globals.css'
 
 export const metadata: Metadata = {
   title: 'Prolific Rehab Center | Personalized Physiotherapy & Recovery Care',
-  description: 'Prolific Rehab Center — professional physiotherapy with personalized treatment plans, sports rehabilitation, and compassionate care. Book your appointment today.',
+  description: 'Prolific Rehab Center professional physiotherapy with personalized treatment plans, sports rehabilitation, and compassionate care. Book your appointment today.',
   keywords: 'physiotherapy, physical therapy, sports injury, rehabilitation, pain relief, recovery, Chennai',
   icons: {
     icon: '/favicon.png',

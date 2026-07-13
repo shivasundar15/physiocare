@@ -44,7 +44,7 @@ export default function Page() {
                 </p>
                 <div className="bg-primary/5 rounded-lg p-4 mb-6 border border-border">
                   <p className="text-sm text-foreground/70 mb-2"><span className="font-semibold">Initial Consultation:</span> £65 (45-60 mins)</p>
-                  <p className="text-sm text-foreground/70"><span className="font-semibold">Follow-up Session:</span> £45 (30-45 mins)</p>
+                  <p className="text-sm text-foreground/70"><span className="font-semibold">Follow up Session:</span> £45 (30-45 mins)</p>
                 </div>
                 <a href="https://wa.me/447729482216?text=Hi%20Prolific%20Rehab%20Center%2C%20I%27d%20like%20to%20book%20an%20appointment." target="_blank" rel="noopener noreferrer">
                   <Button className="w-full bg-accent hover:bg-accent/90 text-accent-foreground">
@@ -88,7 +88,7 @@ export default function Page() {
                 <div className="w-16 h-16 rounded-full bg-secondary/10 flex items-center justify-center mx-auto mb-4">
                   <User size={32} className="text-secondary" />
                 </div>
-                <h3 className="font-semibold text-foreground mb-2">Pre-Appointment</h3>
+                <h3 className="font-semibold text-foreground mb-2">Pre Appointment</h3>
                 <p className="text-foreground/70 text-sm">
                   Arrive 10 minutes early. Bring medical records and insurance details if applicable.
                 </p>
@@ -110,7 +110,7 @@ export default function Page() {
                 </div>
                 <h3 className="font-semibold text-foreground mb-2">Plan</h3>
                 <p className="text-foreground/70 text-sm">
-                  We develop a personalized treatment plan and schedule your follow-up appointments.
+                  We develop a personalized treatment plan and schedule your follow up appointments.
                 </p>
               </div>
             </div>
@@ -143,7 +143,7 @@ export default function Page() {
               <div className="bg-white border border-border rounded-lg p-6">
                 <h3 className="font-semibold text-foreground mb-2">Clothing</h3>
                 <p className="text-foreground/70">
-                  Wear comfortable, loose-fitting clothing that allows easy access to the area being treated. You may be asked to change into examination clothes.
+                  Wear comfortable, loose fitting clothing that allows easy access to the area being treated. You may be asked to change into examination clothes.
                 </p>
               </div>
 

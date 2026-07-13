@@ -13,31 +13,31 @@ const testimonials = [
   {
     name: 'Sarah Johnson',
     role: 'Runner',
-    content: 'I came to Prolific Rehab Center with persistent knee pain that was preventing me from running. Within 8 weeks of consistent treatment and the home exercise program, I was back to my regular running schedule pain-free. The attention to detail and personalized approach made all the difference.',
+    content: 'I came to Prolific Rehab Center with persistent knee pain that was preventing me from running. Within 8 weeks of consistent treatment and the home exercise program, I was back to my regular running schedule pain free. The attention to detail and personalized approach made all the difference.',
     rating: 5,
   },
   {
     name: 'Michael Chen',
     role: 'Office Worker',
-    content: 'My chronic back pain seemed hopeless—I&apos;d tried everything. Within the first few sessions, I felt real improvement. Now, several months later, I&apos;m managing my pain effectively and sleeping better than I have in years. Highly recommend!',
+    content: 'My chronic back pain seemed hopeless—I&apos;d tried everything. Within the first few sessions, I felt real improvement. Now, several months later,managing my pain effectively and sleeping better than I have in years. Highly recommend!',
     rating: 5,
   },
   {
     name: 'Emma Williams',
-    role: 'Post-Surgery Patient',
-    content: 'The guidance through my post-operative recovery was exceptional. Professional, caring, and results-driven. I felt supported every step of the way. Thank you for helping me get back to normal life faster than I expected.',
+    role: 'Post Surgery Patient',
+    content: 'The guidance through my post operative recovery was exceptional. Professional, caring, and results driven. I felt supported every step of the way. Thank you for helping me get back to normal life faster than I expected.',
     rating: 5,
   },
   {
     name: 'James Patterson',
     role: 'Tennis Player',
-    content: 'Tennis elbow was affecting my game. After targeted rehabilitation, I not only recovered but improved my performance. The prevention strategies I learned have kept me injury-free for over a year.',
+    content: 'Tennis elbow was affecting my game. After targeted rehabilitation, I not only recovered but improved my performance. The prevention strategies I learned have kept me injury free for over a year.',
     rating: 5,
   },
   {
     name: 'Lisa Anderson',
     role: 'Desk Worker',
-    content: 'Neck and shoulder tension from my desk job was unbearable. The combination of treatment and ergonomic advice has been life-changing. I now have strategies to manage my condition long-term.',
+    content: 'Neck and shoulder tension from my desk job was unbearable. The combination of treatment and ergonomic advice has been life changing. I now have strategies to manage my condition long term.',
     rating: 5,
   },
   {
